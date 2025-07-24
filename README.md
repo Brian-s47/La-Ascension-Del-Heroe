@@ -91,21 +91,54 @@ Cada clase tiene acceso a habilidades únicas según su rol y especializacion
 - El juego guarda automáticamente los personajes en archivos en formato JSON locales de forma temporal durante el juego.
 - La base de datos de Personajes guardados, progrecion, armas, armaduras, objetos, enemigos y demas se guardaran de forma remota con MongoBD.
 
+## 🏗️ Estructura del Proyecto
+
+```
+La Ascension Del Heroe/
+├── src/                            # Estrcuturacion de codigo clave
+|   ├── data/                       # Archivos JSON temporales
+│   |   ├──                         # 
+│   |   ├──                         # 
+│   |   └──                         # 
+|   ├── bd/                         # Conexión MongoDB y lógica de persistencia
+│   |   ├──                         # 
+│   |   ├──                         # 
+│   |   └──                         # 
+│   ├── models/                     # Sistema de herencia de clases
+│   │   ├──                         # 
+│   │   └──                         # 
+│   ├── services/                   # Lógica de negocio (combate, inventario, etc.)
+│   │   ├──                         # 
+│   │   └──                         # 
+│   ├── ui/                         # Interacciones CLI con el jugador
+│   │   ├──                         # 
+│   │   └──                         # 
+│   └── utils/                      # Helpers y utilidades generales
+│       ├──                         # 
+│       └──                         # 
+├── .gitignore                      # Archivos ignorados por Git
+├── index.js                        # Punto de entrada principal
+├── package.json                    # Librerias instalas y versiones de las mismas
+├── package-lock.json               # Configuracion de NODE
+└── README.md                       # Descripcion del proyecto
+```
 ---
 
-### 📁 Estructura de carpetas
+## 📥 Instalación
 
-/src
-  /models         -> Clases y estructuras de datos
-  /services       -> Lógica de negocio (combate, inventario, etc.)
-  /db             -> Conexión MongoDB y lógica de persistencia
-  /ui             -> Interacciones CLI con el jugador
-  /utils          -> Helpers y utilidades generales
-  /data           -> Archivos JSON temporales
-  index.js        -> Punto de entrada principal
-.gitignore        -> Archivos ignorados por Git
-README.md         -> Descripcion del proyecto
-package.json      -> Librerias instalas y versiones de las mismas
+```bash
+git clone https://github.com/Brian-s47/Simulador-de-Batallas-RPG.git
+cd Simulador-de-Batallas-RPG
+npm install
+```
+
+---
+
+## 🚀 Ejecutar el Juego
+
+```bash
+node index.js
+```
 
 ---
 

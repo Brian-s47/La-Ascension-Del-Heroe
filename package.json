@@ -1,0 +1,18 @@
+{
+  "name": "la-ascension-del-heroe",
+  "version": "1.0.0",
+  "description": "Un juego de rol por turnos basado en consola donde el jugador crea y gestiona héroes que ascienden por la temida **La Ascensión Del Heroe**. Usa estrategia, equipo y habilidades únicas para sobrevivir a enemigos cada vez más peligrosos. ¡Una experiencia narrativa, efectos temporales y progresión por niveles!, Administratas tu equipo, mejoraras tus habilidades, te especializaras en una categoria.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "dotenv": "^17.2.0",
+    "inquirer": "^12.8.2",
+    "mongodb": "^6.18.0"
+  }
+}

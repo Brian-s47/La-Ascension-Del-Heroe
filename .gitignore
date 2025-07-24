@@ -156,3 +156,6 @@ dist
 # Ignore all local history of files
 .history
 .ionide
+
+### .env de conexion a mongo
+.env
